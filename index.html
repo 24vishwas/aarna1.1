@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Nityotsava </title>
+</head>
+
+<body>
+    <nav>
+        <navbar class="navbar-section">
+
+            <div class="logo">
+                <a href="index.html">
+                    <img src="./assets/logo.png" alt="Nityotsava">
+                    <!-- <img src="./assets/Logo.svg" alt="Nityotsava"> -->
+                </a>
+            </div>
+
+            <li class="menu-icon">
+                <img src="./assets/menu.svg" onclick="toggleFunction()" alt="menu-icon">
+            </li>
+            <ul class="nav-container" id="topnav">
+                <li class="menu-close-icon">
+                    <img src="./assets/close.svg" onclick="toggleFunction()" alt="menu-icon">
+                </li>
+                <li>
+                    <a href="./index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="services.html">Services</a>
+                </li>
+                <li>
+                    <a href="gallery.html">gallery</a>
+                </li>
+                <li>
+                    <a href="#contact">contact</a>
+                </li>
+                <li>
+                    <button class="primary-btn "><a href="#contact">Book Now</a></button>
+                </li>
+            </ul>
+        </navbar>
+    </nav>
+    <section class="hero-section">
+        <video autoplay muted loop>
+            <source src="./assets/2.mp4" type="video/mp4">
+            <!-- <source src="your-video-file.webm" type="video/webm">
+            <source src="your-video-file.ogv" type="video/ogg"> -->
+            Your browser does not support the video tag.
+        </video>
+        <div class="overlay"></div>
+        <div class="hero-container container">
+            <div class="hero-content">
+
+                <h1>Your Event, Our Hall <br> <span class="stroke">&</span> <span class="orange">Memories For All.</span></h1>
+                <p>"A traditional venue in Mysore that takes your dreams seriously - because we know you want elegant and unforgettable"
+                </p>
+                
+                <p>
+                    Your Perfect Day? Just One Click Away!
+                </p>
+                <button class="primary-btn "><a href="contact.html">Book Now</a></button>
+            </div>
+            <div class="img-wrapper">
+                <img src="./assets/1.png" alt="image">
+            </div>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
