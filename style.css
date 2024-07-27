@@ -357,8 +357,8 @@ nav{
 }
 @media (max-width:992px) {
     .hero-section{
-        
         height: auto;
+        max-height: 600px;
     }
     .hero-container{
         flex-direction: column-reverse;
